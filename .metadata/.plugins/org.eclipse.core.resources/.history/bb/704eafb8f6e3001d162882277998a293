@@ -1,0 +1,46 @@
+package com.java.movie.service;
+
+import com.java.common.AppService;
+
+import static com.java.view.AppUI.*;
+
+public class MovieService implements AppService {
+
+	@Override
+	public void start() {
+		while(true) {
+			movieManagementScreen();
+			int selection = inputInteger();
+			
+			switch (selection) {
+			case 1:
+				
+				break;
+			case 2:
+				
+				break;
+			case 3:
+				return;
+
+			default:
+				break;
+			}
+			
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

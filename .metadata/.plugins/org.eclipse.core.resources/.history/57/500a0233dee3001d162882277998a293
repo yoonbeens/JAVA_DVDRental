@@ -1,0 +1,37 @@
+package com.java.user.repository;
+
+import java.sql.Connection;
+
+import com.java.common.DataBaseConnection;
+import com.java.user.domain.User;
+
+public class UserRepository {
+	
+	//커넥션 객체 받아오기
+	DataBaseConnection connection = 
+			DataBaseConnection.getInstance();
+	
+	public void addUser(User user) {
+		System.out.println("repository: " + user);
+		
+		
+		try {
+			Connection conn = connection.getConnection();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+package com.java.view;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class AppUI {
+	
+	private static Scanner sc = new Scanner(System.in);
+	
+	public static String inputString() {
+		return sc.nextLine();
+	}
+	
+	public static int inputInteger() {
+		int num = 0;
+		try {
+			num = sc.nextInt();
+		} catch (InputMismatchException e) {
+			System.out.println("정수로 입력해 주세요.");
+		}
+		
+		return num;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

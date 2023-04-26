@@ -1,0 +1,18 @@
+package com.java.user.service;
+
+import com.java.common.AppService;
+import static com.java.view.AppUI.*;
+
+public class UserService implements AppService {
+
+	@Override
+	public void start() {
+		while(true) {
+			userManagementScreen();
+			int selection = inputInteger();
+		}
+	}
+	
+	
+
+}

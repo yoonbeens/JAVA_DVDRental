@@ -1,0 +1,12 @@
+package com.java.order.repository;
+
+import com.java.common.DataBaseConnection;
+
+public class OrderRepository {
+	
+	private DataBaseConnection connection 
+			= DataBaseConnection.getInstance();
+
+	
+	
+}

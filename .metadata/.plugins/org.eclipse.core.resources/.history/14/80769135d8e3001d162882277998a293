@@ -1,0 +1,9 @@
+package com.java.common;
+
+public class DataBaseConnection {
+	
+	private DataBaseConnection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

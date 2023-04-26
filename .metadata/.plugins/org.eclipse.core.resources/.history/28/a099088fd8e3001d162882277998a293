@@ -1,0 +1,27 @@
+package com.java.common;
+
+public class DataBaseConnection {
+	
+	private DataBaseConnection() {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+	}
+	
+	private static DataBaseConnection connection 
+					= new DataBaseConnection();
+	
+	public DataBaseConnection getInstance() {
+		return connection;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
