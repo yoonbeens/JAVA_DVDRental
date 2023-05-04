@@ -83,6 +83,8 @@ public class UserService implements AppService {
 		return users.size();
 	}
 	
+	
+	
 	//회원 탈퇴 비즈니스 로직
 	private void deleteUser() {
 		
